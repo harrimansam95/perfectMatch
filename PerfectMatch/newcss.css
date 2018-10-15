@@ -1,0 +1,214 @@
+body{
+    height: 100%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    background: lightgrey;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+li a:hover {
+    background-color: lightgrey;
+}
+#logotext{
+    color: black;
+    display: block;
+    text-align: center;
+    float: right;
+    padding-right: 10px;
+
+
+}
+#container8{
+
+    width: 100%;
+    height: 89%;
+    background-color: white;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#container1{
+    background-color: white;
+    text-align: center;
+    padding: 1%;
+
+}
+
+#searchbar{
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+    width: 20%;
+}
+
+#container2{
+    background-color: white;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 2px -2px gray;
+    margin-bottom: 1%;
+
+
+
+
+}
+#button {
+    background-color: lightgrey;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 4px;
+    width: 10%;
+    height: 30%;
+}
+#button:hover {
+    background-color: grey;
+    color: white;
+}
+.segmentation{
+
+    margin-top:  3%;
+}
+#interest_wrapper{
+    width: 50%;
+    margin: 0 auto;
+
+}
+#interest_wrapper .interests{
+    display: inline-block;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    width: 200px;
+}
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+#button2 {
+    background-color: lightgrey;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 4px;
+    width: 15%;
+    height: 40%;
+    float: right;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#button2:hover {
+    background-color: grey;
+    color: white;
+}
+.logincl{
+    display: inline-block;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    width: 30%;
+}
+#login_wrapper{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 5%;
+}
+#loginbtn{
+    float: left;
+    margin-left: 40%;
+    clear: both;
+    width: 20%;
+    background-color: lightgrey;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 4px;
+    margin-top: 2%;
+}
+#loginbtn:hover {
+    background-color: grey;
+    color: white;
+}
+#logintxt{
+    text-align: center;
+    margin-bottom: 5%;
+}
+form, p, span {
+    margin:0;
+    padding:0; }
+
+input { font:12px arial; }
+
+a {
+    color:#0000FF;
+    text-decoration:none; }
+
+a:hover { text-decoration:underline; }
+
+#wrapper, #loginform {
+
+    margin:0 auto;
+    padding-bottom:25px;
+    background:lightgrey;
+    margin-top: 1%;}
+
+#loginform { padding-top:18px; }
+
+#loginform p { margin: 5px; }
+
+#chatbox {
+
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:1%;
+    padding:10px;
+    height:450px;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px gray;
+    width:90%;
+    border:1px solid black;
+    overflow:auto; 
+}
+
+#usermsg {
+    width: 87%;
+    height: 40px;
+    margin-left: 4.2%;
+    border:1px solid #ACD8F0;
+    box-shadow: 0 4px 2px -2px gray;
+    border: 1px solid black;
+
+
+
+    .error { color: #ff0000; }
+
+    #menu { padding:12.5px 25px 12.5px 25px; }
+
+    .welcome { float:left; }
+
+    .logout { float:right; }
+
+    .msgln { margin:0 0 2px 0;}}
